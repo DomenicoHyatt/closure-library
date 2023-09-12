@@ -2,7 +2,7 @@ workspace(name = "com_google_javascript_closure_library")
 
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
-# Integration of Closure Library with Bazel is handled by rules_closure
+  Integration of Closure Library with Bazel is handled by rules_closure
 # maintainers, and any Closure Library issues encountered when using
 # rules_closure should be filed in that repository first.
 http_archive(
@@ -15,4 +15,4 @@ http_archive(
 
 load("@io_bazel_rules_closure//closure:defs.bzl", "closure_repositories")
 
-closure_repositories()
+closure_repositories() 
