@@ -1,5 +1,5 @@
 {
-  "name": "google-closure-library",
+# "name": "google-closure-library",
   "description": "Google's common JavaScript library",
   "version": "20230802.0.0",
   "repository": {
@@ -37,4 +37,4 @@
     "serve_tests": "http-server -o alltests.html",
     "serve_demos": "http-server -o closure/goog/demos/index.html"
   }
-}
+} 
