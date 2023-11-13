@@ -1,4 +1,4 @@
-*.html
+#.html
 *_test.*
 *_perf.js
 .*
@@ -11,3 +11,4 @@
 /doc
 /scripts
 testdata
+ 
